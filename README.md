@@ -1,0 +1,1 @@
+# Manufacturing-Machine-Failure-Defect-Detection
