@@ -28,7 +28,7 @@ Modern smart factories require continuous monitoring of both operational telemat
 - [x] **Phase 7 — CNN Model Development**: Custom PyTorch Deep CNN architecture trained on 5-class visual product defect images.
 - [x] **Phase 8 — Model Evaluation**: Confusion matrices, ROC-AUC curves, Precision-Recall tradeoffs, classification metrics.
 - [x] **Phase 9 — Integrated Inference**: Joint dual-inference engine delivering unified failure risk %, defect confidence, and operational recommendations.
-- [ ] **Phase 10 — Deployment & Dashboard**: Full interactive Streamlit monitoring dashboard with live inspection tools and report exports.
+- [x] **Phase 10 — Deployment & Dashboard**: Full interactive Streamlit monitoring dashboard with live inspection tools and report exports.
 
 ---
 
