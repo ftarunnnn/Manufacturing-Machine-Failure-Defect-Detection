@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Datasets & Generated Images
+data/raw/images/
+data/processed/
+
+# Model Checkpoints & Artifacts
+saved_models/
+*.joblib
+*.pth
+*.pkl
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
