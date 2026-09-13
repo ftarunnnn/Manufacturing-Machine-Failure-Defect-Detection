@@ -1,0 +1,124 @@
+{
+  "tabular_sensor_eda": {
+    "total_records": 1500,
+    "sensor_statistics": {
+      "Air_Temperature_K": {
+        "mean": 299.74381999999997,
+        "std": 2.793049556455549,
+        "min": 295.04,
+        "median": 299.815,
+        "max": 304.5
+      },
+      "Process_Temperature_K": {
+        "mean": 312.2461466666667,
+        "std": 3.1495013029780647,
+        "min": 305.2,
+        "median": 312.265,
+        "max": 319.27
+      },
+      "Rotational_Speed_RPM": {
+        "mean": 1504.0887333333337,
+        "std": 240.96884011769518,
+        "min": 1100.0,
+        "median": 1496.85,
+        "max": 2481.6
+      },
+      "Torque_Nm": {
+        "mean": 61.562353333333334,
+        "std": 11.054229313659464,
+        "min": 20.21,
+        "median": 61.614999999999995,
+        "max": 90.0
+      },
+      "Tool_Wear_min": {
+        "mean": 116.318,
+        "std": 68.72387399274758,
+        "min": 0.0,
+        "median": 115.0,
+        "max": 240.0
+      },
+      "Pressure_bar": {
+        "mean": 5.50294,
+        "std": 1.2509457755190108,
+        "min": 2.0,
+        "median": 5.47,
+        "max": 9.73
+      },
+      "Vibration_mm_s": {
+        "mean": 3.048153333333333,
+        "std": 2.116658975831692,
+        "min": 0.5,
+        "median": 2.56,
+        "max": 13.93
+      }
+    },
+    "correlation_with_failure": {
+      "Air_Temperature_K": 0.04126275622495068,
+      "Process_Temperature_K": 0.0228151793813279,
+      "Rotational_Speed_RPM": 0.12517624094445928,
+      "Torque_Nm": 0.3487503533566237,
+      "Tool_Wear_min": 0.3263783159335617,
+      "Pressure_bar": 0.023580355086330537,
+      "Vibration_mm_s": -0.014800067623798192
+    },
+    "class_balance_ratio": {
+      "1": 0.546,
+      "0": 0.454
+    },
+    "class_counts": {
+      "1": 819,
+      "0": 681
+    },
+    "sensor_means_by_failure_status": {
+      "Air_Temperature_K": {
+        "0": 299.6174743024963,
+        "1": 299.8488766788767
+      },
+      "Process_Temperature_K": {
+        "0": 312.1673715124817,
+        "1": 312.31164835164833
+      },
+      "Rotational_Speed_RPM": {
+        "0": 1471.020851688693,
+        "1": 1531.5847374847374
+      },
+      "Torque_Nm": {
+        "0": 57.33599118942731,
+        "1": 65.0765811965812
+      },
+      "Tool_Wear_min": {
+        "0": 91.72834067547724,
+        "1": 136.76434676434675
+      },
+      "Pressure_bar": {
+        "0": 5.470602055800294,
+        "1": 5.52982905982906
+      },
+      "Vibration_mm_s": {
+        "0": 3.082496328928047,
+        "1": 3.01959706959707
+      }
+    },
+    "failure_type_breakdown": {
+      "No Failure": 681,
+      "Power Failure": 550,
+      "Tool Wear Failure": 208,
+      "Overstrain Failure": 60,
+      "Random Failure": 1
+    }
+  },
+  "product_image_eda": {
+    "defect_class_counts": {
+      "normal": 100,
+      "crack": 100,
+      "scratch": 100,
+      "dent": 100,
+      "surface_defect": 100
+    },
+    "total_images": 500,
+    "sample_dimensions_wh": [
+      128,
+      128
+    ]
+  }
+}
