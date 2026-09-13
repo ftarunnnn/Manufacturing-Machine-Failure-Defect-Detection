@@ -26,7 +26,7 @@ Modern smart factories require continuous monitoring of both operational telemat
 - [x] **Phase 5 — Feature Engineering**: Temperature-pressure ratios, vibration rolling statistics, thermal stress indices, tool wear accumulation metrics.
 - [x] **Phase 6 — ML Model Development**: Random Forest & XGBoost / Gradient Boosting classification pipelines tuned for high-recall safety.
 - [x] **Phase 7 — CNN Model Development**: Custom PyTorch Deep CNN architecture trained on 5-class visual product defect images.
-- [ ] **Phase 8 — Model Evaluation**: Confusion matrices, ROC-AUC curves, Precision-Recall tradeoffs, classification metrics.
+- [x] **Phase 8 — Model Evaluation**: Confusion matrices, ROC-AUC curves, Precision-Recall tradeoffs, classification metrics.
 - [ ] **Phase 9 — Integrated Inference**: Joint dual-inference engine delivering unified failure risk %, defect confidence, and operational recommendations.
 - [ ] **Phase 10 — Deployment & Dashboard**: Full interactive Streamlit monitoring dashboard with live inspection tools and report exports.
 
