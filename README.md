@@ -23,7 +23,7 @@ Modern smart factories require continuous monitoring of both operational telemat
 - [x] **Phase 2 — Data Collection**: Telematic sensor dataset & multi-class defect image rendering pipeline.
 - [x] **Phase 3 — Data Preprocessing**: Missing value imputation, outlier filtering, scaling, image normalization & PyTorch DataLoaders.
 - [x] **Phase 4 — EDA & Data Analysis**: Sensor distribution analysis, correlation heatmaps, class balance checks, image dimensions breakdown.
-- [ ] **Phase 5 — Feature Engineering**: Temperature-pressure ratios, vibration rolling statistics, thermal stress indices, tool wear accumulation metrics.
+- [x] **Phase 5 — Feature Engineering**: Temperature-pressure ratios, vibration rolling statistics, thermal stress indices, tool wear accumulation metrics.
 - [ ] **Phase 6 — ML Model Development**: Random Forest & XGBoost / Gradient Boosting classification pipelines tuned for high-recall safety.
 - [ ] **Phase 7 — CNN Model Development**: Custom PyTorch Deep CNN architecture trained on 5-class visual product defect images.
 - [ ] **Phase 8 — Model Evaluation**: Confusion matrices, ROC-AUC curves, Precision-Recall tradeoffs, classification metrics.
